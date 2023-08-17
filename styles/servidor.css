@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 *{
     margin: 0%;
     padding: 0%;
@@ -39,7 +39,7 @@ header{
 header .logo{
     position: relative;
     max-width: 250px;
-    right: 300px;
+    right: 400px;
 }
 header .navegation ul{
     position: relative;
@@ -86,7 +86,7 @@ header .navegation li{
     font-weight: 700;
 } 
 .container .text h2 span{
-    font-size: 2em;
+    font-size: 1em;
     color: #051d7c;
 }
 .container .text p{
@@ -102,10 +102,9 @@ header .navegation li{
   text-decoration: none;
   letter-spacing: 1px;
   border-radius: 40px;
-  transition: 0.3s ease-in-out;
-} 
-.container .text a:hover{
-  transform: translateY(-10px);  
+  transition: 0.3 ease-in-out;
 }
-  
-  
+.container .text a:hover {
+ transform: translateY(-10px);
+}
+
